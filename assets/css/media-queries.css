@@ -1,0 +1,147 @@
+/* big screens  */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    /* padding: 0 2%; */
+  }
+
+  .contact-us {
+    width: 80%;
+  }
+}
+
+/* small tablets to big tablets: 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .para {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  /* how it works section */
+  .step {
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+  }
+  .steps-box:last-child {
+    margin-top: 40px;
+  }
+  .step:last-of-type {
+    margin-bottom: 60px;
+  }
+  .onmi-app {
+    width: 60%;
+  }
+
+  /* cities section */
+  .cities {
+    font-size: 90%;
+  }
+  .icon-small {
+    width: 17px;
+    margin-right: 10px;
+  }
+
+  /* pricing */
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .plan-price {
+    font-size: 250%;
+  }
+
+  /* contact us section */
+  .contact-us {
+    width: 80%;
+  }
+}
+
+/* smalll Phones to small tablets: 481px to 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+  .para {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .onmi-app {
+    width: 40%;
+    text-align: center;
+  }
+  .steps-box:first-child {
+    text-align: center;
+  }
+
+  .step div {
+    margin-top: -18px;
+  }
+
+  cite {
+    margin-top: 0;
+  }
+
+  .plan-box {
+    /* margin-top: 2%; */
+    width: 70%;
+    margin:2% auto;
+  }
+
+  .contact-us {
+    width: 100%;
+  }
+
+
+  footer .row:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
+
+  .footer-nav li {
+    margin-top: 15px;
+  }
+}
+
+/* Small phones  0px to 480px */
+@media only screen and (max-width: 480px) {
+  
+}
